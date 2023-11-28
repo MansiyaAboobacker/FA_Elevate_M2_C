@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0%;
+ 
+}
+
+ul{
+  
+    list-style: none;
+    
+}
+.img-responsive {
+  height: auto;
+  width: auto;
+  max-height: 80px;
+  max-width: 150px;
+}
+.navh{
+height: 70px;
+}
+h1{
+text-transform:capitalize;
+align-items:end;
+animation: reverse;
+text-shadow: 2px;
+text-decoration: underline;
+font-style: italic;
+
+
+}
+.masthead{
+  background-size: cover;
+  min-height: 1000px;
+}
+.color-overlay{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 2);
+}   
+
+  div .gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+  }
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  .navbg{
+  /*  background-color:	
+    #000066;*/
+    background-color:black;
+    
+  }
+  
+#eimg{
+  width: 200px;
+  height: 100px;
+}
+ .inpute{
+    float: right;
+  padding: 6px;
+  border: black;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+ }
+ 
+  nav a:hover{
+   
+    width: auto;
+    transition: 0.5s;
+    text-transform:uppercase ;
+    text-align: center;
+    border: 1px solid red   ;
+ 
+  }
+  #imgs{
+    align-content: center;
+    justify-content: center;
+    height: 100px;
+    padding: 0px 1px;
+  
+    margin: 10px 10px;
+  }
+  p{
+    text-align: justify;
+
+  }
+.p-style ul{
+  text-decoration-style: dashed;
+}
+.uls{
+  list-style-position: outside;
+  list-style-type: circle;
+  text-align: justify;
+  padding: 0%;
+  margin: 0 0 0 100px;
+ 
+}
+
